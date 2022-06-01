@@ -1,0 +1,58 @@
+/* general props */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --primaryColor:#FF4081;
+    --secondaryColor: #2E948A;
+    --titleColor: #009688;
+    --backgroundColor1: #E5E5E5;
+    --backgroundColor2: #F7F7F7;
+}
+
+.flex {
+    display: flex;
+}
+
+.whole-line {
+    flex-basis: 100%;
+}
+
+button {
+    border-radius: 62px;
+}
+
+/* header props */
+
+header {
+    background-color: var(--secondaryColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+header a {
+    margin-left: 3vw;
+    color: white;
+}
+
+header nav {
+    margin-right: 3vw;
+}
+
+header ul {
+    display: flex;
+}
+
+/* footer props */
+
+
