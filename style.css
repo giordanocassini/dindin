@@ -55,6 +55,17 @@ header {
     height: 117px;
 }
 
+header .icon {
+    display: none;
+    height: 70px;
+    width: 70px;
+    margin-right: 4vw;
+}
+
+header .icon i {
+    font-size: 30px;
+}
+
 .mobile-menu {
     display: none;
     max-width: 5%;
@@ -649,18 +660,32 @@ footer button {
 
 /* responsividade */
 @media only screen and (max-width: 1000px) {
-    .main__home__banner>aside, footer>nav, .main__cursos>article>aside, .main__blog__banner>aside, .main__contato>aside, .main__curso__banner>aside {
+
+    .main__home__banner>aside,
+    footer>nav,
+    .main__cursos>article>aside,
+    .main__blog__banner>aside,
+    .main__contato>aside,
+    .main__curso__banner>aside {
         display: none;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    header>nav, footer>a {
+
+    header>nav,
+    footer>a {
         display: none;
     }
 
     .main__blog__banner h1 {
         font-size: 30px;
+    }
+
+    header .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 }
