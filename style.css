@@ -363,7 +363,7 @@ footer button {
     font-size: 16px;
 }
 
-/* cursos */
+/* cursoS */
 
 .main__cursos {
     display: flex;
@@ -427,4 +427,85 @@ footer button {
     font-size: 20px;
     color: #FFFFFF;
     background: #2E948A;
+    border: var(--secondaryColor);
+}
+
+/* cursO */
+
+.main__curso {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__curso__banner {
+    display: flex;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    padding-left: 12vw;
+    padding-right: 5vw;
+    gap: 8vw;
+}
+
+.main__curso__banner>aside {
+    max-height: 380px;
+}
+
+.main__curso__banner>section {
+    display: flex;
+    flex-direction: column;
+    max-width: 461px;
+    gap: 2vw;
+}
+
+.main__curso__banner>section>h1 {
+    font-size: 55px;
+    color: var(--primaryColor);
+}
+
+.main__curso__banner>section>p {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.main__curso__aulas {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--backgroundColor1);
+    padding: 3vw 5vw 3vw 5vw;
+    gap: 3vw;
+
+}
+
+.main__curso__aulas>section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8vw;
+}
+
+.main__curso__aulas>section>div {
+    width: 462px;
+    height: 261px;
+}
+
+.main__curso__aulas iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.main__curso__aulas .resumo {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 2vw;
+}
+
+.main__curso__aulas .resumo h1 {
+    font-size: 35px;
+    color: var(--primaryColor);
+}
+
+.main__curso__aulas .resumo p {
+    font-weight: 300;
+    font-size: 20px;
 }
