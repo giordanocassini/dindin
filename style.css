@@ -66,12 +66,6 @@ header .icon i {
     font-size: 30px;
 }
 
-.mobile-menu {
-    display: none;
-    max-width: 5%;
-    color: #FFFFFF;
-}
-
 header> {
     max-height: 70%;
 }
@@ -686,6 +680,14 @@ footer button {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    header>a {
+        width: 50vw;
+    }
+
+    header>a>img {
+        width: 100%;
     }
 
 }
