@@ -44,6 +44,29 @@ a {
     color: #ffff;
 }
 
+#menu-mobile {
+    display: none;
+    background-color: var(--backgroundColor1);
+}
+
+#menu-mobile ul{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+#menu-mobile nav {
+    padding: 5vw;
+}
+
+#menu-mobile a {
+    font-size: 1.5rem;
+    color: var(--titleColor);
+}
+
+
+
+
 /* header props */
 
 
@@ -64,6 +87,7 @@ header .icon {
 
 header .icon i {
     font-size: 30px;
+    color: #ffff;
 }
 
 header> {
@@ -77,6 +101,7 @@ header>a>img {
 
 header a {
     margin-left: 3vw;
+    max-width: 244px;
 }
 
 header nav {
